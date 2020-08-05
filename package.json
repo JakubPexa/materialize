@@ -15,17 +15,6 @@
   "bugs": {
     "url": "https://github.com/Dogfalo/materialize/issues"
   },
-  /*"scripts": {
-    "dev": "grunt monitor",
-    "test": "grunt travis",
-    "precommit": "lint-staged"
-  },
-  "lint-staged": {
-    "js/*.js": [
-      "prettier --write",
-      "git add"
-    ]
-  },*/
   "dependencies": {},
   "engine": "node >= 6",
   "devDependencies": {
