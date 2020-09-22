@@ -298,7 +298,7 @@
       renderedChip.classList.add('chip');
       renderedChip.textContent = chip.tag;
       renderedChip.setAttribute('tabindex', 0);
-      $(closeIcon).addClass('material-icons close');
+      $(closeIcon).addClass('material-icons close mine');
       closeIcon.textContent = 'close';
 
       // attach image if needed
