@@ -298,7 +298,7 @@
       renderedChip.classList.add('chip');
       renderedChip.textContent = chip.tag;
       renderedChip.setAttribute('tabindex', 0);
-      $(closeIcon).addClass('material-icons close mine yeah');
+      $(closeIcon).addClass('material-icons close');
       closeIcon.textContent = 'close';
 
       // attach image if needed
@@ -417,6 +417,8 @@
       if (typeof this.options.onChipAdd === 'function') {
         this.options.onChipAdd.call(this, this.$el, renderedChip);
       }
+
+      return renderedChip
     }
 
     /**
