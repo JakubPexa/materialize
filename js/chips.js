@@ -44,7 +44,7 @@
        */
       this.options = $.extend({}, Chips.defaults, options);
 
-      this.$el.addClass('input-field');
+      this.$el.addClass('chips input-field');
       this.chipsData = [];
       this.$chips = $();
       this._setupInput();
